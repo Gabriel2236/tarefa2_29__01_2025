@@ -2,7 +2,7 @@
 
 Este projeto demonstra como controlar três LEDs (azul, verde e vermelho) usando um botão de pressão com um Raspberry Pi Pico. Os LEDs são ligados quando o botão é pressionado e desligados após intervalos de tempo específicos, utilizando funções de callback e timers.
 
-### Hardware Utilizado
+## Hardware Utilizado
 
 - Raspberry Pi Pico
 - LEDs (azul, verde e vermelho)
