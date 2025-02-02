@@ -30,3 +30,10 @@ O código está escrito em C e utiliza a biblioteca `pico/stdlib.h` e `hardware/
    - A lógica de debounce é aplicada para garantir que o botão não seja ativado várias vezes devido a oscilações elétricas.
    - Se o botão ainda estiver pressionado após o debounce, os LEDs são ligados e os alarmes são configurados para desligá-los após 3, 6 e 9 segundos, respectivamente.
 5. **Atraso de 10 ms:** Adiciona um pequeno atraso de 10 milissegundos para reduzir o uso da CPU.
+
+### Como Compilar e Executar
+
+1. Configure seu ambiente de desenvolvimento para o Raspberry Pi Pico conforme descrito na documentação oficial.
+2. Clone este repositório e navegue até o diretório do projeto.
+3. Compile o código.
+4. Aperte o botão no diagram.json para que os leds acendam e o codigo seja executado.
